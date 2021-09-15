@@ -179,6 +179,22 @@
   BoldItalicFont=*-MediumItalic,
 ]{Roboto}
 
+\newfontfamily\bodyfontlightMont[
+  Path=\@fontdir,
+  UprightFont=*-light,
+  ItalicFont=*-lightItalic,
+  BoldFont=*-Medium,
+  BoldItalicFont=*-MediumItalic,
+]{Montserrat}
+
+\newfontfamily\bodyfontMont[
+  Path=\@fontdir,
+  UprightFont=*-regular,
+  ItalicFont=*-Italic,
+  BoldFont=*-Bold,
+  BoldItalicFont=*-BoldItalic,
+]{Montserrat}
+
 \newcommand*{\footerfont}{\sourcesanspro}
 \newcommand*{\bodyfont}{\sourcesanspro}
 \newcommand*{\bodyfontlight}{\sourcesansprolight}
@@ -584,6 +600,7 @@
 }{%
   \par
   \vspace{2mm}
+  \vspace*{5pt}
 }
 
 % Define an environment for cventry
